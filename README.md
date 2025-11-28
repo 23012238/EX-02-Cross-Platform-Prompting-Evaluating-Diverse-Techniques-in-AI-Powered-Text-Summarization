@@ -135,6 +135,8 @@ User Experience
 
 <img width="1024" height="1024" alt="Gemini_Generated_Image_vmqkxwvmqkxwvmqk" src="https://github.com/user-attachments/assets/ce881a03-7ddf-4a64-8b51-ce83be6505e1" />
 Platform	Prompt Type	Accuracy	Coherence	Simplicity	Speed	UX	Total (/25)
+
+
 | Platform | Prompt Type      | Total Score |
 |----------|-------------------|-------------|
 | ChatGPT  | Zero-shot         | 22          |
