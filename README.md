@@ -135,16 +135,19 @@ User Experience
 
 <img width="1024" height="1024" alt="Gemini_Generated_Image_vmqkxwvmqkxwvmqk" src="https://github.com/user-attachments/assets/ce881a03-7ddf-4a64-8b51-ce83be6505e1" />
 Platform	Prompt Type	Accuracy	Coherence	Simplicity	Speed	UX	Total (/25)
-ChatGPT	Zero-shot	4	4	4	5	5	22
-ChatGPT	Few-shot	5	5	5	4	5	24
-ChatGPT	Chain-of-Thought	5	5	4	3	5	22
-ChatGPT	Role-based	5	5	5	4	5	24
-Gemini	Zero-shot	3	3	4	5	4	19
-Gemini	Few-shot	4	4	4	4	4	20
-Claude	Chain-of-Thought	5	5	5	4	4	23
-Claude	Role-based	5	5	5	4	5	24
-Copilot	Zero-shot	3	3	3	5	4	18
-Copilot	Few-shot	4	4	4	4	4	20
+| Platform | Prompt Type      | Total Score |
+|----------|-------------------|-------------|
+| ChatGPT  | Zero-shot         | 22          |
+| ChatGPT  | Few-shot          | 24          |
+| ChatGPT  | Chain-of-Thought  | 22          |
+| ChatGPT  | Role-based        | 24          |
+| Gemini   | Zero-shot         | 19          |
+| Gemini   | Few-shot          | 20          |
+| Claude   | Chain-of-Thought  | 23          |
+| Claude   | Role-based        | 24          |
+| Copilot  | Zero-shot         | 18          |
+| Copilot  | Few-shot          | 20          |
+
 
 ## **Result**
 
