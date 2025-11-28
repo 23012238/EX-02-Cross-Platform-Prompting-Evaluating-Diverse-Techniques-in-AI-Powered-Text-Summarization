@@ -1,6 +1,7 @@
 # EX-02-Cross-Platform-Prompting-Evaluating-Diverse-Techniques-in-AI-Powered-Text-Summarization
 
 ---
+Reg No:212223040214
 ## AIM
 To evaluate and compare the effectiveness of different prompting strategies (zero-shot, few-shot, chain-of-thought, and role-based) on multiple AI platforms (ChatGPT, Gemini, Claude, Copilot) for summarizing a 500-word article about “Introduction to Artificial Intelligence”.
 This helps understand how prompt design influences summary quality across platforms.
@@ -132,7 +133,7 @@ User Experience
 
 ## Bar chart:
 
-<img width="2400" height="1600" alt="image" src="https://github.com/user-attachments/assets/3c2eae44-5011-4b09-829b-88af34b9f272" />
+<img width="1024" height="1024" alt="Gemini_Generated_Image_vmqkxwvmqkxwvmqk" src="https://github.com/user-attachments/assets/ce881a03-7ddf-4a64-8b51-ce83be6505e1" />
 Platform	Prompt Type	Accuracy	Coherence	Simplicity	Speed	UX	Total (/25)
 ChatGPT	Zero-shot	4	4	4	5	5	22
 ChatGPT	Few-shot	5	5	5	4	5	24
