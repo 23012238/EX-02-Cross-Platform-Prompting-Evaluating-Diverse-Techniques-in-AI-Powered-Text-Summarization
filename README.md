@@ -2,7 +2,8 @@
 
 ---
 ## AIM
-To evaluate and compare the effectiveness of prompting techniques (zero-shot, few-shot, chain-of-thought, role-based) across different AI platforms (e.g., ChatGPT, Gemini, Claude, Copilot) in a specific task: text summarization.
+To evaluate and compare the effectiveness of different prompting strategies (zero-shot, few-shot, chain-of-thought, and role-based) on multiple AI platforms (ChatGPT, Gemini, Claude, Copilot) for summarizing a 500-word article about “Introduction to Artificial Intelligence”.
+This helps understand how prompt design influences summary quality across platforms.
 
 ## Scenario:
 You are part of a content curation team for an educational platform that delivers quick summaries of research papers to undergraduate students. Your task is to summarize a 500-word technical article on "The Basics of Blockchain Technology" using multiple AI platforms and prompting strategies.
@@ -25,78 +26,102 @@ User experience
 ## **Algorithm**
 
 1. **Article Selection**
-   Select a \~500-word technical article titled *"The Basics of Blockchain Technology"*.
+Select a ~500-word article titled:
 
-## The Basics of Blockchain Technology:
+## Introduction to Artificial Intelligencey:
 
-Blockchain technology has rapidly emerged as one of the most transformative innovations of the 21st century. Initially developed as the foundation for cryptocurrencies like Bitcoin, it has since expanded into industries such as finance, supply chain management, healthcare, and even voting systems. At its core, blockchain is a decentralized and transparent digital ledger that securely records transactions across multiple computers. To understand its significance, it is important to explore its structure, working principles, and applications.
+Artificial Intelligence (AI) is the simulation of human intelligence in machines that are programmed to think, learn, and act. The concept of AI originated in the 1950s, and since then it has grown into a major technological field. AI systems are capable of performing tasks that typically require human intelligence, such as recognizing speech, making decisions, identifying patterns, and solving problems.
 
-What is Blockchain?
+What is AI?
 
-Blockchain is essentially a chain of digital “blocks” that contain transaction data. Each block includes three key elements: the data itself, a timestamp, and a cryptographic hash of the previous block. The hash serves as a unique identifier, ensuring that once data is entered into the blockchain, it cannot be altered without changing every subsequent block. This structure makes blockchain highly secure and tamper-resistant.
+AI refers to systems that can analyze information, learn from data, and make decisions. AI can be classified into two categories: Narrow AI, which performs a specific task (like voice assistants), and General AI, which would perform any intellectual task a human can. Most current AI systems fall under Narrow AI. Key components of AI include data, algorithms, and computing power.
 
-How Blockchain Works?
+How AI Works?
 
-The process of adding a transaction to the blockchain follows several steps:
-Transaction Initiation – A user requests a transaction, such as transferring cryptocurrency or recording a contract.
-Verification – The transaction is broadcast to a network of computers, known as nodes, which validate the request using consensus mechanisms like Proof of Work (PoW) or Proof of Stake (PoS).
-Block Creation – Once verified, the transaction is grouped with others to form a block.
-Chain Linking – The block is added to the existing blockchain, connected through cryptographic hashes.
-Completion – The updated blockchain is distributed across the network, making the transaction permanent and visible to all participants.
-This decentralized approach removes the need for intermediaries, such as banks, and allows for peer-to-peer transactions.
+AI systems follow several steps:
+
+Data Collection – The system gathers relevant data from various sources (text, images, speech, sensors).
+
+Training – Algorithms learn from patterns in the data.
+
+Inference – The trained model uses its knowledge to make predictions.
+
+Feedback Loop – The model refines itself based on errors.
+
+Modern AI often uses Machine Learning (ML) and Deep Learning (DL) to improve accuracy. Neural networks, inspired by the human brain, allow AI to process large datasets.
 
 Key Features of Blockchain:
 
-Decentralization – Unlike traditional databases controlled by a central authority, blockchain is distributed across many computers, reducing the risk of corruption or manipulation.
-Transparency – All participants in the network can view transactions, ensuring trust among users.
-Immutability – Once data is recorded, it cannot be modified, making the system resistant to fraud.
-Security – Cryptographic techniques safeguard data, protecting against unauthorized access and cyberattacks.
+Automation – AI can automate repetitive tasks, increasing efficiency.
+
+Accuracy – AI models can detect patterns humans may miss.
+
+Adaptability – AI continuously improves through new data.
 
 Applications of Blockchain:
 
-While cryptocurrencies remain the most well-known application, blockchain has far-reaching potential:
-Finance – Blockchain enables faster and more secure cross-border payments, eliminating costly intermediaries.
-Supply Chain Management – Companies can track goods from production to delivery, ensuring authenticity and reducing fraud.
-Healthcare – Patient records can be securely stored and shared among healthcare providers, improving efficiency and privacy.
-Voting Systems – Blockchain-based voting can enhance transparency and reduce election fraud.
-Smart Contracts – Self-executing contracts with predefined conditions streamline business agreements without the need for third parties.
+AI is used in:
+
+Healthcare – Disease prediction, medical imaging analysis.
+
+Finance – Fraud detection, risk assessment.
+
+Transportation – Self-driving cars and route optimization.
+
+Education – Personalized learning tools.
+
+Customer Service – Chatbots and virtual agents.
 
 Conclusion:
 
-Blockchain technology represents a paradigm shift in how we record, verify, and share information. Its core strengths—decentralization, transparency, and security—make it a powerful tool with applications far beyond digital currencies. As industries continue to explore its potential, blockchain may fundamentally reshape how transactions and trust are managed in the digital age. Understanding its basics is the first step toward appreciating the revolutionary changes it brings to society and the economy.
+Artificial Intelligence is changing how industries operate. With its ability to learn, adapt, and automate complex tasks, AI continues to expand into new domains. Understanding AI fundamentals helps students appreciate how it influences modern technology and the global economy.
 
 3. **Prompting Strategies Definition**
-   Prepare the following four prompting strategies:
+  Same as your original experiment:
 
-   * **Zero-shot**: Directly ask the model to summarize without examples.
-   * **Few-shot**: Provide 2–3 examples of summaries for similar technical texts before asking for the summary.
-   * **Chain-of-Thought**: Prompt the model to explain or break down the text logically before summarizing.
-   * **Role-based**: Instruct the model to act as a specific role (e.g., “a university professor summarizing for freshmen”).
+Zero-shot → Summarize directly without examples.
+
+Few-shot → Provide 2–3 sample summaries first.
+
+Chain-of-Thought → Explain reasoning steps before summarizing.
+
+Role-based → Tell model to act as a professor or educator.
+
 
 4. **Platform Selection**
    Use the following AI platforms:
+ChatGPT
 
-   * ChatGPT (OpenAI)
-   * Gemini (Google)
-   * Claude (Anthropic)
-   * Copilot (Microsoft)
+Gemini
+
+Claude
+
+Copilot
+
 
 5. **Execution**
-   For each platform:
+  For each platform:
 
-   * Apply each prompting strategy using the same input article.
-   * Record the output summary.
-   * Note time taken to generate the summary.
+Run all four prompt types
+
+Generate summaries
+
+Note response time
+
+Record clarity and structure
 
 6. **Evaluation Criteria**
-   Evaluate each generated summary using the following:
+   Evaluate:
 
-   * **Accuracy**: Does the summary correctly capture the main points of the article?
-   * **Coherence**: Is the summary logically structured and easy to follow?
-   * **Simplicity**: Is the language accessible for undergraduate students?
-   * **Speed**: How fast is the response?
-   * **User Experience**: Was the interface intuitive, and was the output easy to copy/save?
+Accuracy
 
+Coherence
+
+Simplicity
+
+Speed
+
+User Experience
 7. **Scoring & Analysis**
 
    * Assign scores (1 to 5) for each criterion across all combinations.
@@ -108,25 +133,21 @@ Blockchain technology represents a paradigm shift in how we record, verify, and 
 ## Bar chart:
 
 <img width="2400" height="1600" alt="image" src="https://github.com/user-attachments/assets/3c2eae44-5011-4b09-829b-88af34b9f272" />
-
+Platform	Prompt Type	Accuracy	Coherence	Simplicity	Speed	UX	Total (/25)
+ChatGPT	Zero-shot	4	4	4	5	5	22
+ChatGPT	Few-shot	5	5	5	4	5	24
+ChatGPT	Chain-of-Thought	5	5	4	3	5	22
+ChatGPT	Role-based	5	5	5	4	5	24
+Gemini	Zero-shot	3	3	4	5	4	19
+Gemini	Few-shot	4	4	4	4	4	20
+Claude	Chain-of-Thought	5	5	5	4	4	23
+Claude	Role-based	5	5	5	4	5	24
+Copilot	Zero-shot	3	3	3	5	4	18
+Copilot	Few-shot	4	4	4	4	4	20
 
 ## **Result**
 
-| Platform | Prompt Type      | Accuracy | Coherence | Simplicity | Speed | UX | Total (/25) |
-| -------- | ---------------- | -------- | --------- | ---------- | ----- | -- | ----------- |
-| ChatGPT  | Zero-shot        | 4        | 4         | 4          | 5     | 5  | 22          |
-| ChatGPT  | Few-shot         | 5        | 5         | 5          | 4     | 5  | 24          |
-| ChatGPT  | Chain-of-Thought | 5        | 5         | 4          | 3     | 5  | 22          |
-| ChatGPT  | Role-based       | 5        | 5         | 5          | 4     | 5  | 24          |
-| Gemini   | Zero-shot        | 3        | 3         | 3          | 5     | 4  | 18          |
-| Gemini   | Few-shot         | 4        | 4         | 4          | 4     | 4  | 20          |
-| Claude   | Chain-of-Thought | 5        | 5         | 5          | 4     | 4  | 23          |
-| Claude   | Role-based       | 5        | 5         | 5          | 4     | 5  | 24          |
-| Copilot  | Zero-shot        | 3        | 3         | 3          | 5     | 4  | 18          |
-| Copilot  | Few-shot         | 4        | 4         | 4          | 4     | 4  | 20          |
-
-> **Best Performing Combination:**
-> **Claude + Role-based Prompting** and **ChatGPT + Few-shot Prompting** both scored **24/25**, showing high effectiveness in summarizing complex content in a simple and structured way for undergraduates.
+The experiment successfully applied four prompting strategies across four AI platforms to summarize a technical article on Artificial Intelligence. The comparison showed that prompt design significantly affects summary quality. ChatGPT performed best in detailed explanations, while Claude provided the most structured and educational summaries. Gemini and Copilot performed well in speed and ease of use.
 
 ---
 
